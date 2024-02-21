@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.secao-limitada {
+    width: 1024px;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.home {
+    display: flex;
+    padding: 35px 0;
+}
+
+.logotipo {
+    position: relative;
+}
+
+.logotipo span {
+    position: absolute;
+    top: 0;
+    margin-left: 15px;
+}
+
+.logotipo img {
+    width: 15%;
+}
+
+.logotipo p {
+    color: #2f86d6;
+    font-weight: bold;
+}
+
+.links {
+    font-size: 18px;
+    padding-top: 10px;
+    margin-left: 50px;
+}
+
+.links a {
+    padding-right: 15px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #233032;    
+}
+
+h1 {
+    font-size: 32px;
+}
+
+.secao-banner {
+    padding: 180px 0;
+    background-color: #2f86d6;
+    position: relative;
+}
+
+.banner div {
+    width: 470px;
+}
+
+.banner img {
+    position: absolute;
+    right: 200px;
+    top: 40px;
+}
+
+.banner p, .anuncio1 p {
+    font-size: 16px;
+    color: #fff;
+}
+
+.banner h2 {
+    font-size: 28px;
+    color: #fff;
+    margin: 20px 0;
+}
+
+.primeiro-anuncio, .segundo-anuncio {
+    padding: 40px 0;
+    background-color: #233032;
+    color: #fff;
+    position: relative;
+}
+
+.anuncio1 div, .anuncio2 div {
+    width: 600px;
+}
+
+.anuncio1 h2, .anuncio2 h2 {
+    font-size: 24px;
+}
+
+.anuncio1 a, .anuncio2 a {
+    position: absolute;
+    right: 255px;
+    top: 30%;
+    padding: 20px;
+    background-color: #2f86d6;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 18px; 
+}
+
+.anuncio1 span, .anuncio2 span {
+    margin-left: 5px;
+}
+
+.informacoes {
+    padding: 100px 0;
+    background-color: #fff;
+}
+
+.informacoes h2 {
+    font-size: 32px;
+    color: #000000;
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.informacoes span, .tabela span {
+    color: #2f86d6;
+}
+
+.informacoes h3, table thead tr th h3 {
+    font-size: 18px;
+    color: #000000;
+    margin: 20px 0;
+}
+
+.secao-cards {
+    position: relative;
+}
+
+.secao-cards img {
+    width: 100px;
+}
+
+.card, .card2, .card3 {
+    width: 33%;
+    text-align: center;
+    padding: 5px;
+}
+
+.card2 {
+    position: absolute;
+    left: 34%;
+    top: 0;
+}
+
+.card3 {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.secao-cards p {
+    font-size: 16px;
+    
+}
+
+.tabela {
+    padding: 100px 0;
+    background-color: #f1f3f7;
+}
+
+.tabela h2{
+    font-size: 32px;
+    margin-bottom: 80px;
+}
+
+table {
+    box-shadow: 0px 2px 40px 15px rgba(47, 134, 214, 1);
+    margin: auto;
+}
+
+table img {
+    width: 100px;
+}
+
+table thead tr th {
+    padding: 20px;
+    background-color: #fff;
+}
+
+table thead tr th p {
+    font-size: 13px;
+    color: #a89f9f;
+    font-weight: normal;
+}
+
+table tbody tr td {
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.linha-impar {
+    background-color: #f6f6f6;
+}
+
+.linha-par {
+    background-color: #fff;
+}
+
+.rodape {
+    text-align: center;
+}
+
+.conteine-rodape {
+    background-color: #fff;
+    padding: 100px 0;
+    text-align: left;
+    font-weight: 700;
+}
+
+.conteine-rodape .logo {
+    display: flex;
+    flex-direction: row;
+    margin-left: 40%;
+    margin-bottom: 40px;
+}
+
+.conteine-rodape span {
+    margin-left: 5px;
+}
+
+.conteine-rodape h1 {
+    font-size: 32px;
+    padding-left: 5px;
+}
+
+.rodape-informacoes p {
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+}
+
+.rodape img {
+    width: 80px;
+}
+
+.barra-final {
+    padding: 20px 0;
+    font-weight: 700;
+    background-color: #f1f3f7;
+}
+
+.barra-final span, .conteine-rodape p span{
+    color: #2f86d6;
+}
+
+.seta img {
+    width: 50px;
+    height: 50%;
+    filter: grayscale(100%);
+    filter: opacity(60%);
+}
+
+.seta {
+    position: fixed;
+    bottom: 0px;
+    right: 20px;
+}
